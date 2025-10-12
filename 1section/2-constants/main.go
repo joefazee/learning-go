@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+const (
+	Host = "127.0.0.1"
+	Port = ":8080"
+	User = "root"
+)
+
+var (
+	isRunning bool
+)
+
+func main() {
+
+	AppName := "Go"
+	fmt.Println(AppName)
+
+	const pi float64 = 3.1415926
+	fmt.Println(pi)
+
+	const rate float32 = 5.2
+	fmt.Println(rate)
+
+}
